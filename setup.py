@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-__version__ = '1.0.12.0'
+__version__ = '1.0.12'
 url = 'https://github.com/LindseyOlsen/proms_peptide'
 
 install_requires = [
