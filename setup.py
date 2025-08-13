@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-__version__ = '1.0.12'
+__version__ = '1.0.12.0'
 url = 'https://github.com/LindseyOlsen/proms_peptide'
 
 install_requires = [
@@ -17,7 +17,7 @@ install_requires = [
 
 
 setup(
-    name='proms',
+    name='proms_peptide',
     version=__version__,
     description='Protein Markers Selection',
     author='Zhiao Shi',
@@ -38,6 +38,6 @@ setup(
     python_requires='>=3.6',
     install_requires=install_requires,
     packages=find_packages(),
-    entry_points={"console_scripts": ["proms_train=proms.__main__:main", 
-                  "proms_predict=proms.predict:main"]}
+    entry_points={"console_scripts": ["proms_peptide_train=proms.__main__:main", 
+                  "proms_peptide_predict=proms.predict:main"]}
 )
